@@ -1,23 +1,55 @@
 @import url(variables.css);
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
+
 .container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-div {
-    border: 1px solid red;
-}
-
-.logo {
-    display: flex;
+.container .logo {
+    align-self: flex-start;
 }
 
 a {
     color: gray;
     text-decoration: none;
 }
+
+nav .menu {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-basis: auto;
+}
+.buttons button {
+    color: #fff;
+    background: rgba(104, 104, 104, 0.897);
+    width: 3.5em;
+    height: 3.5em;
+    border: none;
+    outline: none;
+    margin: 5.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button:hover {
+    background: rgba(54, 54, 54, 0.6);
+    cursor: pointer;
+}
+
