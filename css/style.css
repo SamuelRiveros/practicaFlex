@@ -1,1 +1,47 @@
 @import url(variables.css);
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 100px;
+}
+.MainBox {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+ul {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li {
+    margin: 2px;
+    display: flex;
+    justify-content: space-between;
+    background: #cecece;
+    padding: 2%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+button {
+    font-size: 1em;
+    display: flex;
+    background: #ffffffe5;
+    width: 5.3em;
+    height: 2.5em;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background: rgba(155, 155, 155, 0.897);
+    cursor: pointer;
+}
