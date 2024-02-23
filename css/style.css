@@ -1,1 +1,23 @@
 @import url(variables.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.logo {
+    display: flex;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
