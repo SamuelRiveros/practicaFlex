@@ -1,1 +1,47 @@
 @import url(variables.css);
+
+* {
+    background-color: #93d9e9;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    inset: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: px;
+}
+
+h4 {
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    background-color: wf;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #ededed;
+    cursor: pointer;
+}
+
+.Card1,.Card2,.Card3 {
+    margin: 5px;
+    min-height: 480px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
