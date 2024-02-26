@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    border-color: black;
+}
+
+body, html {
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    height: 5rem;
+    background-color: rgb(226, 226, 226);
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+}
+
+nav, article, aside {
+    padding: 3em;
+    width: 6em;
+    height: 100vh;
+}
+
+nav, article {
+    background-color: rgb(197, 197, 197);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+aside {
+    background-color: rgb(161, 161, 161);
+    display: flex;
+    flex-wrap: wrap;
+    width: 50em;
+}
+
+footer {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
