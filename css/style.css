@@ -1,47 +1,74 @@
 @import url(variables.css);
 
 * {
+    box-sizing: border-box;
     background-color: #93d9e9;
     font-family: sans-serif;
 }
 
-body {
+h2,p {
+    background-color: transparent;
+    padding: 12px;
+}
+
+.CARDS {
     position: relative;
     inset: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: px;
-}
-
-h4 {
-    background-color: salmon;
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    background-color: wf;
-}
-
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-button:hover {
-    background-color: #ededed;
-    cursor: pointer;
 }
 
 .Card1,.Card2,.Card3 {
-    margin: 5px;
     min-height: 480px;
-    background-color: white;
+    width: 280px;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 6px 7px 20px -5px black;
+}
+
+.pcard1, .pcard2, .pcard3 {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-grow: 100;
+    padding: 10px;
+    line-height: 2;
+    text-align: center;
+}
+
+.day1,.weekend1, .weekend2 {
+    display: flex;
+    justify-content: center;
+    background-color: salmon;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20%;
+}
+
+
+.but1,.but2,.but3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+button {
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
 }
