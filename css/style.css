@@ -44,3 +44,22 @@ nav ul li{
     justify-content: right;
     display: flex;
 }
+
+article {
+    width: 30%;
+    background-color: rgb(240, 240, 240);
+}
+
+.stuffarticle {
+    padding-left: 30px;
+}
+
+article h2 {
+    padding: 10px;
+}
+
+article p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
