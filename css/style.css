@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
+    outline-width: 1px;
 }
 
 body {
@@ -21,38 +22,93 @@ header {
 }
 
 main {
+    
     display: flex;
     height: 70vh;
     width: 100%;
     flex-direction: row;
 }
 
-nav, article, aside {
-    padding: 3vh;
+.parrafozone div{
+    outline-style: dashed;
 }
 
-nav, article {
-    background-color: rgb(202, 202, 202);
+.parrafozone .parrafo {
+    font-size: 20px;
+}
+
+.parrafozone2 DIV{
+    outline-style: dashed;
+}
+
+
+article, aside {
+    outline-style: dashed;
+    padding: 1vh;
+}
+
+article {
+    width: 30%;
+    font-size: 23px;
+}
+
+.subitempart {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 20vw;
-    flex: 1;
-}
-aside {
-    padding-left: 0px ;
-    background-color: rgb(161, 161, 161);
-    display: flex;
-    flex-wrap: wrap;
-    flex-flow: column;
-    width: 50em;
 }
 
-footer {
-    background-color: gray;
+aside {
+    width: 100%;
+}
+
+.itemsl {
     display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 10vh;
+    top: 2vh;
+    width: 8vh;
+    height: 8vh;
     justify-content: center;
     align-items: center;
-    height: 15vh;
+}
+
+.valorescontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.valores {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 30vh;
+    margin-top: 2vh;
+}
+
+.valores div {
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item i {
+
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+    outline-style: dashed;
+}
+
+.downaside {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
