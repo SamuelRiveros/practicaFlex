@@ -1,1 +1,1 @@
-https://i.imgur.com/uLaYA3U.png
+![](https://github.com/SamuelRiveros/practicaFlex/blob/main/storage/img/ejer1.png)
